@@ -22,8 +22,13 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@devui-design/icons": "^1.4.0",
+    "devui-theme": "^0.0.7",
     "electron-is-dev": "^3.0.1",
-    "vue": "^3.4.29"
+    "element-plus": "^2.7.7",
+    "vue": "^3.4.29",
+    "vue-devui": "^1.6.21",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.4.0",
@@ -39,9 +44,12 @@
     "@vue/eslint-config-prettier": "^9.0.0",
     "concurrently": "^8.2.2",
     "electron": "^31.2.1",
+    "element-theme-chalk": "^2.15.14",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
     "prettier": "^3.2.5",
+    "sass": "^1.77.8",
+    "sass-loader": "^14.2.1",
     "update-electron-app": "^3.0.0",
     "vite": "^5.3.1",
     "vite-plugin-vue-devtools": "^7.3.1",

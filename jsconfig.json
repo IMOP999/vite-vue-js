@@ -2,7 +2,8 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "types": ["element-plus/global"]  // 指定全局组件类型
   },
   "exclude": ["node_modules", "dist"]
 }

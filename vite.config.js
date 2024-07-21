@@ -13,6 +13,13 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
   ],
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "./src/styles/element-variables.scss";`
+      }
+    }
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
