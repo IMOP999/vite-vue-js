@@ -14,7 +14,7 @@ module.exports = {
       config: {
         repository: {
           owner: 'IMOP999',
-          name: 'electron-vite-js'
+          name: 'vite-vue-js'
         },
         prerelease: false,
         draft: true
